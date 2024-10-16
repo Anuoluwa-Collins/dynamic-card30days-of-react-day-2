@@ -1,0 +1,60 @@
+/* App.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.card-image {
+  width: 100%;                /* Makes sure image takes up full width of card */
+  height: 150px;               /* Ensures consistent height */
+  object-fit: cover;           /* Ensures image is cropped to fit */
+  border-radius: 8px;
+}
+
+.card h1 {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.card p {
+  color: #666;
+}
+
+.rating {
+  font-weight: bold;
+  color: #ffba00; /* Gold color for rating */
+  margin-top: 10px;
+}
+
+.book-now {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Bootstrap blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
